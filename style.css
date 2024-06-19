@@ -1,9 +1,4 @@
-body {
-  background-color: #BB133E;
-  color: white;
-}
 nav a {
-  color: white;
   float: right;
   font-size: 24px;
   margin-right: 12px;
@@ -21,9 +16,7 @@ nav a.active {
   margin-left: 6px;
 }
 #phonebutton {
-  background-color: #BB133E;
   border: none;
-  color: white;
   font-family:'Times New Roman', Times, serif;
   font-size: 24px;
   font-weight: bold;
