@@ -1,3 +1,3 @@
 <?php
-  echo "Hello, htmlspecialchars($name)!";
+  echo "Hello, " . htmlspecialchars($_SESSION['name']) . "!";
 ?>

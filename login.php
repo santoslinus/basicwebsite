@@ -1,4 +1,5 @@
 <?php
+session_start();
 $name = $password = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -14,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     }
     if($name == $vname && $password == $vpassword)
     {
+        $_SESSION['name'] = $name;
         header('Location: success.php');
         exit;
     }
